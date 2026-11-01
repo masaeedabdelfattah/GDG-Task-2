@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree";
+    color: #363434;
+}
+
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* text-align: center; */
+}
+
+header .sec {
+    padding-top: 10%;
+    /* line-height: 30px; */
+
+}
+
+.sec img {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 10px;
+}
+
+.sec h1,
+h2 {
+    font-weight: 500;
+}
+
+p {
+    color: #8a8fa0;
+    font-size: .95rem;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.btns {
+    margin-top: 40px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: .85rem;
+    padding: 10px 28px;
+    border-radius: 999px;
+    border: none;
+
+}
+
+.btn.ios {
+    background: #21c3a6;
+    box-shadow: 0 8px 16px -6px rgba(33, 195, 166, .5)
+}
+
+.btn.mac {
+    background: #5b6cf9;
+    box-shadow: 0 8px 16px -6px rgba(91, 108, 249, .5)
+}
+
+section {
+    text-align: center;
+    line-height: 30px;
+
+
+}
+
+
+.inbk {
+    margin-top: 64px;
+    text-align: left;
+    font-size: 0;
+}
+
+.inbk div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.inbk img {
+    width: 100%;
+    display: block;
+}
+
+.feat {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.sec2,
+.sec3 {
+    margin-top: 60px;
+}
+
+.cards {
+    margin-top: 64px;
+    text-align: center;
+    font-size: 0;
+}
+
+.cards div {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.cards img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.cards h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: .82rem;
+    max-width: 240px;
+    margin: 10px auto;
+    line-height: 24px;
+}
+
+.sec4 {
+    margin: 80px 0;
+}
+
+.imgs {
+    text-align: center;
+    font-size: 0;
+}
+
+.imgs img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    margin: 0 30px;
+}
+
+
+.sec5 {
+    margin-bottom: 80px;
+}
+
+
+
+
+footer {
+    background-color: aliceblue;
+}
+
+.container {
+    padding: 10px 50px;
+}
+
+.logo,
+.links,
+.end {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 64px;
+}
+
+.links {
+    width: 55%;
+}
+
+.links a {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: gray;
+}
+
+.end {
+    width: 20%;
+    text-align: end;
+}
+
+.end img {
+    width: 20px;
+    margin-left: 15px;
+
+}
